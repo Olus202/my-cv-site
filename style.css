@@ -1,4 +1,65 @@
 body
 {
-    background-color: #303030;
+    font-family: 'Lato', sans-serif;
+    background-color: #435B7A;
+    color: #ffffff;
 }
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle
+{
+    width: 970px;
+    margin: 5px;
+    text-align: center
+}
+
+.menu
+{
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    float: left
+}
+
+.tail
+{
+    background-color: #354D6A;
+    width: 260px;
+    height: 85px;
+    margin: 10px;
+}
+
+#contents
+{
+    background-color: #354D6A;
+    width: 680px;
+    height: 465px;
+    margin: 10px;
+    float: left;
+}
+
+#logo
+{
+    width: 735px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    line-height: 9px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.sociallink
+{
+    margin-top: 10px;
+    float: left;
+}
+
