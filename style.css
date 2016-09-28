@@ -36,13 +36,27 @@ body
     margin: 10px;
 }
 
+.squere
+{
+    width: 700px;
+    float: left;
+}
+
 #contents
 {
     background-color: #354D6A;
     width: 680px;
-    height: 465px;
+    height: 370px;
     margin: 10px;
-    float: left;
+}
+
+#motto
+{
+    background-color: #354D6A;
+    width: 680px;
+    height: 85px;
+    margin: 10px;
+    text-align: center
 }
 
 #logo
