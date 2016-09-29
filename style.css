@@ -27,7 +27,7 @@ body
     float: left;
 }
 
-.tail1
+.tile1
 {
     background-color: #16A085;
     width: 260px;
@@ -37,7 +37,22 @@ body
     font-size: 20px;
 }
 
-.tail2
+.tile1:hover
+{
+    background-color: #117A65;
+}
+
+.tile1:link
+{
+    background-color: #16A085;
+}
+
+.tile1:visited
+{
+    background-color: #16A085;
+}
+
+.tile2
 {
     background-color: #D68910;
     width: 260px;
@@ -47,7 +62,22 @@ body
     font-size: 17px;
 }
 
-.tail3
+.tile2:hover
+{
+    background-color: #B9770E;
+}
+
+.tile2:link
+{
+    background-color: #D68910;
+}
+
+.tile2:visited
+{
+    background-color: #D68910;
+}
+
+.tile3
 {
     background-color: #707B7C;
     width: 260px;
@@ -57,6 +87,26 @@ body
     font-size: 20px;
 }
 
+.tile3:hover
+{
+    background-color: #616A6B;
+}
+
+.tile3:link
+{
+    background-color: #707B7C;
+}
+
+.tile3:visited
+{
+    background-color: #707B7C;
+}
+
+a.tilelink
+{
+    color: #ffffff;
+    text-decoration: none;
+}
 .icon
 {
     height: 85px;
@@ -79,7 +129,7 @@ body
     float: left;
 }
 
-.squere
+.rightsite
 {
     width: 700px;
     float: left;
@@ -97,11 +147,12 @@ body
 
 #motto
 {
-    background-color: #16A085;
-    width: 680px;
-    height: 85px;
+    font-size: 20px;
+    width: 660px;
+    height: 65px;
     margin: 10px;
-    text-align: center
+    text-align: center;
+    padding: 10px;
 }
 
 #logo
