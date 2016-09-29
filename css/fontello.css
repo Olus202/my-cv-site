@@ -55,12 +55,12 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-user:before { content: '\e800'; font-size: 50px} /* '' */
-.icon-mail:before { content: '\e801'; font-size: 50px} /* '' */
-.icon-globe:before { content: '\e802'; font-size: 50px} /* '' */
+.icon-user:before { content: '\e800'; font-size: 50px; margin-top: 15px;} /* '' */
+.icon-mail:before { content: '\e801'; font-size: 50px; margin-top: 15px;} /* '' */
+.icon-globe:before { content: '\e802'; font-size: 50px; margin-top: 15px;} /* '' */
 .icon-newspaper:before { content: '\e803'; font-size: 50px} /* '' */
 .icon-github-circled:before { content: '\f09b'; font-size: 50px} /* '' */
 .icon-mail-alt:before { content: '\f0e0'; font-size: 15px} /* '' */
-.icon-laptop:before { content: '\f109'; font-size: 50px} /* '' */
-.icon-graduation-cap:before { content: '\f19d'; font-size: 50px} /* '' */
+.icon-laptop:before { content: '\f109'; font-size: 50px; margin-top: 15px;} /* '' */
+.icon-graduation-cap:before { content: '\f19d'; font-size: 50px; margin-top: 15px; margin-left: 15px;} /* '' */
 .icon-linkedin-circled:before { content: '\f319'; font-size: 50px} /* '' */
