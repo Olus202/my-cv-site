@@ -14,9 +14,28 @@ body
 
 .rectangle
 {
-    width: 970px;
-    margin: 5px;
-    text-align: center
+    width: 1000px;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#logo
+{
+    width: 775px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    line-height: 1px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 25px;
+    float: left;
+}
+
+.social
+{
+    margin-top: 19px;
+    float: left;
 }
 
 .menu
@@ -102,11 +121,6 @@ body
     background-color: #707B7C;
 }
 
-a.tilelink
-{
-    color: #ffffff;
-    text-decoration: none;
-}
 .icon
 {
     height: 85px;
@@ -148,33 +162,16 @@ a.tilelink
 #motto
 {
     font-size: 20px;
-    width: 660px;
+    width: 680px;
     height: 65px;
-    margin: 10px;
-    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
     padding: 10px;
 }
 
-#logo
-{
-    width: 735px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    line-height: 9px;
-    text-align: left;
-    margin-left: 25px;
-    margin-top: 25px;
-    float: left;
-}
-
-.social
-{
-    margin-top: 10px;
-    float: left;
-}
-
-a.sociallink
+a.link
 {
     color: #ffffff;
-    text-decoration: none
+    text-decoration: none;
 }
