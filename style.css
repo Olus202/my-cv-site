@@ -167,9 +167,14 @@ a.tilelink
     float: left;
 }
 
-.sociallink
+.social
 {
     margin-top: 10px;
     float: left;
 }
 
+a.sociallink
+{
+    color: #ffffff;
+    text-decoration: none
+}
