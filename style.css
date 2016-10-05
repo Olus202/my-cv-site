@@ -149,6 +149,19 @@ body
     float: left;
 }
 
+#about
+{
+    width: 350px;
+    margin-right: 70px;
+    float: left;
+}
+
+#foto
+{
+    width: 200px;
+    float: left;
+}
+
 #contents
 {
     background-color: #354D6A;
