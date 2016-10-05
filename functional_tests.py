@@ -23,9 +23,7 @@ class VisitingTest(unittest.TestCase):
         pages = ['O mnie', 'Wykształcenie', 'Systemy', 'Programowanie', 'Kontakt']
         for p in pages:
             link = self.browser.find_element_by_class_name('menu').find_element_by_partial_link_text(p)
-#            link.click()
-            page = link.get_attribute('href')
-            self.browser.get(page)
+            link.click()
 
             self.assertIn(p, self.browser.title)
             time.sleep(3)
